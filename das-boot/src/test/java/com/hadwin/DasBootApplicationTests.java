@@ -9,8 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.hadwin.controllers.HomeController;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class DasBootApplicationTests {
 
 	@Test

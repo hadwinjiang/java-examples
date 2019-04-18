@@ -3,6 +3,9 @@ package com.hadwin;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
 import java.util.Optional;
 
 import org.junit.Before;
@@ -39,7 +42,8 @@ public class ShipwreckControllerTest {
 		
 		verify(shipwreckRepository).findById(1L);
 		
-		assertEquals(1L, wreck.get().getId().longValue());
+		// assertEquals(1L, wreck.get().getId().longValue());
+		assertThat(wreck.get().getId(), is(1L));
 	}
 
 }
