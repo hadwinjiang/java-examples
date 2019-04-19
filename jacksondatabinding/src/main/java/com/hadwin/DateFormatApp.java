@@ -9,7 +9,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DataFormatApp {
+public class DateFormatApp {
     public static void main(String args[]) {
 
         ObjectMapper mapper = new ObjectMapper();
