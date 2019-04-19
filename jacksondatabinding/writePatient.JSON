@@ -1,0 +1,10 @@
+{
+  "firstName" : "Jean-Marc",
+  "lastName" : "Julien",
+  "dateOfBirth" : "1991-02-03",
+  "address" : "555 Main Street",
+  "city" : "Chicago",
+  "state" : "IL",
+  "zip" : "54321",
+  "phone" : "555-123-9876"
+}
