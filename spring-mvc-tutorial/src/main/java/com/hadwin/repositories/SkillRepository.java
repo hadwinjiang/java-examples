@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 import com.hadwin.models.Skill;
 
 public interface SkillRepository extends CrudRepository<Skill, Long> {
-	List<Skill> findByLable(String label);
+	public List<Skill> findByLabel(String label);
 }
