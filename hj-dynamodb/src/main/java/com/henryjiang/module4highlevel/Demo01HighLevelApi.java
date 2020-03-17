@@ -7,7 +7,7 @@ import com.henryjiang.domain.HighLevelShopItem;
 
 import static com.henryjiang.utility.Utils.*;
 
-public class HighLevelDemo {
+public class Demo01HighLevelApi {
     public static void main(String[] args) {
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()

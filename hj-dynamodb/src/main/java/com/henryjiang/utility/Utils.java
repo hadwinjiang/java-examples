@@ -3,6 +3,9 @@ package com.henryjiang.utility;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.model.CreateTableRequest;
+import com.amazonaws.services.dynamodbv2.model.GlobalSecondaryIndex;
+import com.amazonaws.services.dynamodbv2.model.LocalSecondaryIndex;
+import com.amazonaws.services.dynamodbv2.model.Projection;
 import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 import com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException;
 import com.amazonaws.services.dynamodbv2.model.TableDescription;
@@ -25,6 +28,19 @@ public class Utils {
                 )
         );
 
+        // Create Global Secondary Indexes
+        if (createTableRequest.getGlobalSecondaryIndexes() != null)
+            for (GlobalSecondaryIndex gsi : createTableRequest.getGlobalSecondaryIndexes()) {
+                gsi.withProvisionedThroughput(new ProvisionedThroughput(1L, 1L));
+                gsi.withProjection(new Projection().withProjectionType("ALL"));
+            }
+
+        if (createTableRequest.getLocalSecondaryIndexes() != null)
+            for (LocalSecondaryIndex lsi : createTableRequest.getLocalSecondaryIndexes()) {
+                lsi.withProjection(new Projection().withProjectionType("ALL"));
+            }
+
+        // Create Table
         if (tableExists(dynamoDB, createTableRequest.getTableName())) {
             System.out.println(
                     String.format(
