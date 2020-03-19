@@ -19,6 +19,7 @@ public class HighLevelShopItem {
     private int amount;
 
     // Version to achieve optimistic locking
+    @DynamoDBVersionAttribute
     private Long version;
 
     public HighLevelShopItem() {
@@ -31,8 +32,6 @@ public class HighLevelShopItem {
         this.amount = amount;
     }
 
-    // Version to achieve optimistic locking
-    @DynamoDBVersionAttribute
     public Long getVersion() {
         return version;
     }
