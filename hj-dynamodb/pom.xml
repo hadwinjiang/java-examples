@@ -32,6 +32,11 @@
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-dynamodb</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>dynamodb-streams-kinesis-adapter</artifactId>
+            <version>1.4.0</version>
+        </dependency>
     </dependencies>
 
     <build>
