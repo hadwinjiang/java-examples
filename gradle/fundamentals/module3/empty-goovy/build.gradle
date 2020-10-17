@@ -1,0 +1,18 @@
+plugins { 
+    id 'java' 
+    id "org.flywaydb.flyway" version "6.3.2"
+}
+
+task hello {
+    doFirst {
+        print 'Hello'
+    }
+}
+
+task world {
+    dependsOn hello
+
+    doLast {
+        println(' World')
+    }
+}
