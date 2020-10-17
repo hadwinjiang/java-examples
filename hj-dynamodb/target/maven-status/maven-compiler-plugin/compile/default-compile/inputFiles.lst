@@ -1,0 +1,17 @@
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo01HighLevelApi.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo03Step2QueryComments.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module3lowlevelapi/PutGetDemo.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo02Step1PopulateQueryMessages.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo04OptimisticLocking.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/utility/Utils.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/domain/SupportMessage.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo02Step2QuerySupportMessages.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/dao/highlevel/ShopItemDao.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/dao/lowlevel/ItemDao.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/dao/highlevel/SupportMessageDao.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/module4highlevel/Demo03Step1PopulateComments.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/domain/ShopItem.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/dao/highlevel/CommentDao.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/domain/HighLevelShopItem.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/utility/LocalDateTimeConverter.java
+/Users/hjjaws/Documents/javastore/java-examples/hj-dynamodb/src/main/java/com/henryjiang/domain/Comment.java

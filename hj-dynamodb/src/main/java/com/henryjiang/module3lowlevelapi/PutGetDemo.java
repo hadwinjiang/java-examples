@@ -13,7 +13,7 @@ public class PutGetDemo {
 
         ItemDao itemDao = new ItemDao(client);
 
-//        saveItem(itemDao);
+        saveItem(itemDao);
         readItem(itemDao);
     }
 
